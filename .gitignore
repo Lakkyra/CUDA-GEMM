@@ -1,0 +1,38 @@
+# Build directories
+build/
+bin/
+out/
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Python & Profiling artifacts
+__pycache__/
+*.pyc
+*.pyo
+profile/ncu_reports/*.ncu-rep
+profile/ncu_reports/*.csv
+benchmarks/*.json
+benchmarks/*.csv
+
+# IDE / Editor artifacts
+.vs/
+.vscode/
+*.sln
+*.vcxproj*
+.idea/
+*.swp
+*~
